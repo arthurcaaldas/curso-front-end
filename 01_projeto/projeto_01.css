@@ -1,46 +1,21 @@
-body{
+body {
+
     margin: 0px;
     font-family:sans-serif;
     background-color: #ccc;
-}
 
-h1 {
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px #000000;
-    margin: 200px auto 0;
-    width: 80%;
-    color: white;
-    text-align: center;
-    padding: 5px 0px;
-}
-
-
-.p2 {
-        border-bottom: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-shadow: 2px 2px 2px #000000;
-    display: inline-block;
-    padding: 15px;
-    color: white;
-    text-align: center;
 }
 
 header {
+
     height: 600px;
     background: url('imagens/bg-3.jpg');
     background-size: cover;
-}
 
-.imageminicio{
-    display: inline-block;
-    position: relative;
-}
-
-.imageminicio{
-    width: 100%;
 }
 
 ul {
+
     margin: 0px 30px;
     text-align: right;
     margin: 0px;
@@ -48,7 +23,7 @@ ul {
 
 }
 
-ul li{
+ul li {
     
     text-transform: uppercase;
     border: 1px solid white;
@@ -59,40 +34,75 @@ ul li{
     display: inline-block;
 }
 
-a:hover{
+h1 {
+
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+    margin: 200px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+
+}
+
+
+.p2 {
+
+    border-bottom: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 2px #000000;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-align: center;
+
+}
+
+main {
+
+    padding: 20px;
+    background: #fff;
+    margin: 25px 80px;
+
+}
+
+.title {
+
+    border-bottom: 2px solid #ccc ;
+    padding: 5px;
+    background-color: #eeeeee;
+
+}
+
+a {
+
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+.saibamais {
+
+    border-radius: 5px;
+    background: #ccc;
+    padding: 10px 10px;
+    
+}
+
+a:hover {
+
     color: white;
     text-decoration: none;
 
 }
 
-a{
-    padding: 15px;
-    display: inline-block;
-}
-
-.saibamais{
-    border-radius: 5px;
-    background: #ccc;
-    padding: 10px 10px;
-}
-
-main{
-    padding: 20px;
-    background: #fff;
-    margin: 25px 80px;
-}
-
-.title {
-    border-bottom: 2px solid #ccc ;
-    padding: 5px;
-    background-color: #eeeeee;
-}
-
-
 footer{
+
     text-shadow: 2px 2px 2px #000000;
     background-color: #6b6c68;
     text-align: center;
     padding: 10px;
     color: white;
+    
 }
