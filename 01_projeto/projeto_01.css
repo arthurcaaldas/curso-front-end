@@ -1,30 +1,23 @@
 body {
-
     margin: 0px;
     font-family:sans-serif;
     background-color: #ccc;
-
 }
 
 header {
-
     height: 600px;
     background: url('imagens/bg-3.jpg');
     background-size: cover;
-
 }
 
 ul {
-
     margin: 0px 30px;
     text-align: right;
     margin: 0px;
     text-decoration: underline;
-
 }
 
-ul li {
-    
+ul li {   
     text-transform: uppercase;
     border: 1px solid white;
     background-color: #6b6c68;
@@ -35,7 +28,6 @@ ul li {
 }
 
 h1 {
-
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #000000;
     margin: 200px auto 0;
@@ -43,12 +35,10 @@ h1 {
     color: white;
     text-align: center;
     padding: 5px 0px;
-
 }
 
 
 .p2 {
-
     border-bottom: 2px solid white;
     background-color: rgba(0, 0, 0, 0.6);
     text-shadow: 2px 2px 2px #000000;
@@ -56,53 +46,40 @@ h1 {
     padding: 15px;
     color: white;
     text-align: center;
-
 }
 
 main {
-
     padding: 20px;
     background: #fff;
     margin: 25px 80px;
-
 }
 
 .title {
-
     border-bottom: 2px solid #ccc ;
     padding: 5px;
     background-color: #eeeeee;
-
 }
 
 a {
-
     padding: 15px;
-    display: inline-block;
-    
+    display: inline-block;    
 }
 
 .saibamais {
-
     border-radius: 5px;
     background: #ccc;
-    padding: 10px 10px;
-    
+    padding: 10px 10px;  
 }
 
 a:hover {
-
     color: white;
     text-decoration: none;
-
 }
 
 footer{
-
     text-shadow: 2px 2px 2px #000000;
     background-color: #6b6c68;
     text-align: center;
     padding: 10px;
     color: white;
-    
 }
