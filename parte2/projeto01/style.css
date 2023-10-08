@@ -1,0 +1,172 @@
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  
+  
+  body,
+html {
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.header {
+    background-color: #2a2a2a;
+    height: 8.43rem;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-container-fixed {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+background-image: url(../projeto01/imagens/logoAprenser.png);
+width: 10.26rem;
+height: 4.65rem;
+background-repeat: no-repeat;
+}
+.menu {
+    width: 30rem;
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FED001;
+    border: .1rem solid #FED001;
+    padding: .75rem 1.12rem;
+}
+
+
+.hero-image {
+    background-image: url(../projeto01/imagens/HeroImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 135px);
+}
+
+.hero-image .content {
+    width: 557px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 4.25rem;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+.paragrafo-1px {
+    font-size: 10px;
+}
+
+.design {
+    background-image: url(../projeto01/imagens/curso-design.png);
+    background-image: no-repeat;
+    width: 370px;
+    height: 210.69px;
+}
+
+.front {
+    background-image: url(../projeto01/imagens/curso-design-1.png);
+    background-image: no-repeat;
+    width: 370px;
+    height: 210.69px;
+}
+
+.back {
+    background-image: url(../projeto01/imagens/curso-design-2.png);
+    background-image: no-repeat;
+    height: 210.69px;
+}
+
+h2 {
+    color:#071d2e;
+    font-size: 40px;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.container-box {
+    text-align: start;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.margin {
+    margin: 4rem 0;
+}
+
+.margin-1rem {
+    margin: 1rem .8rem;
+}
+
+.box {
+    background-color: #FFF;
+    width: 370px;
+    height: 454.3px;
+}
+
+.fundo2 {
+    background-image: url(../projeto01/imagens/CTA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.textoo {
+    width: 40rem;
+
+}
+
+.texto-fundo2{
+    flex-direction: column;
+}
+.texto-fundo2 h3{
+    color: #fff;
+    font-size: 40px;
+}
+
+.texto-fundo2 p{
+    font-family: 'Inter';
+    color: #fff;
+    font-size: 18px;
+    width: 546px;
+}
+
+.contato {
+    line-height: 5px;
+    text-align: end;
+}
+
+.footer {
+    font-family: 'inter';
+    font-size: 1rem;
+    background-color: #2a2a2a;
+    color:#fff;
+    margin-top: 3rem;
+    height: 112px;
+    
+}
