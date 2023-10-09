@@ -1,0 +1,56 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #181818;
+}
+
+h1 {
+    color: #8e999a;
+    text-align: center;
+    font-size: 2rem;
+}
+
+fieldset {
+    background: #0e1010;
+    color: white;    
+    height: 35rem;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.enviar input {
+    background: #532d2d;
+    color: white;
+    padding: .8rem;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+    border-bottom: 2px solid #ff0000;
+}
+
+input:valid:focus,
+textarea:valid:focus {
+    border-bottom: 2px solid #0ec72a;
+}
+
+input:focus,
+textarea:focus {
+   border-bottom: 2px solid #8e999a;
+   background-color: #2a2727;
+}

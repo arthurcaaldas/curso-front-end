@@ -1,0 +1,61 @@
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.height-input {
+    height: 1.8rem;
+}
+
+.input-black {
+    background: black;
+    border-bottom: 1px solid #e4dcdc;
+}
+
+.text-white {
+    color: white;
+    padding: 5px;   
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1.8rem;
+}
+
+/*
+input:valid,
+textarea:valid {
+    background: rgb(5, 119, 5);
+    color: white;
+}
+
+input:invalid,
+textarea:invalid {
+    background: red;
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    background: #000000;
+    color: white;
+}
+*/

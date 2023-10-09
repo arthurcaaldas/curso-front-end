@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/formtest.css">
+  <link rel="stylesheet" href="./CSS/formtest2.css">
+</head>
+
+<body>
+  <div class="display-flex justify-content-center align-items-center height-100vh">
+    <form action="" autocomplete="off">
+      <fieldset class="display-flex flex-direction-column">
+        <h1 class="margin-bottom-1rem">Formulário de contato</h1>
+        <label for="nome">Seu nome</label>
+        <input type="text" name="nome" id="nome" class="input-black text-white margin-bottom-1rem height-input" required autofocus placeholder="Digite seu nome completo">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="input-black text-white margin-bottom-1rem height-input" required placeholder="Digite seu email">
+        <label for="assunto">Assunto</label>
+        <input type="textarea" name="assunto" id="assunto" class="input-black text-white margin-bottom-1rem height-input" placeholder="Digite o assunto">
+        <label for="mensagem">Mensagem</label>
+        <textarea type="textarea" name="mensagem" id="mensagem" class="input-black margin-bottom-1rem text-white" minlength="20" maxlength="500" rows="9" required placeholder="Digite a mensagem"></textarea>
+        <div class="enviar display-flex justify-content-end">
+          <input type="submit" value="Enviar">
+        </div>
+      </fieldset>
+    </form>    
+  </div>  
+</body>
+</html>
