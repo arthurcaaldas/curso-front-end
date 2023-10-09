@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="busca.css">
+    <link rel="stylesheet" href="./CSS/busca.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <h1>Login</h1>
             <fieldset>
             <!-- <legend>xxxx</legend> -->
-                <h2>Entre com seu login</h2>
+                <h2>Faça seu login</h2>
                 <label for="log">Usuario:</label>
                 <input type="text" name="text" id="log" required autofocus>
                 <label for="pass">Senha:</label>
@@ -44,51 +44,52 @@
 
     tipos de entrada de dados:
 
-    text
-    password
-    checkbox
-    radio
-    file
-    hidden
-    submit
-    button
-    reset
-    email
-    tel
-    url
-    search
-    number
-    range
-    date
-    time
-    color
+    text        = texto
+    password    = senha
+    checkbox    = selecionar opções/value="x" para declarar o valor q o back irá receber
+    radio       = selecionar opção/declarar msm nome="x" para selecionar somente uma opção e value="x" para declarar o valor q o back irá receber
+    file        = envia arquivo upload
+    hidden      = esconde alguns dados do usuario
+    submit      = botao de enviar
+    button      = botao que faz validação, tb pode enviar formularios
+    reset       = limpa o campo
+    email       = configura para receber email
+    tel         = receber telefone
+    url         =
+    search      = caixa de texto com um botao para apagar td
+    number      = recebe somente numeros EX: min="0" max="100"
+    range       = aumenta e diminui um valor em grafico
+    date        = entrada de data EX: min="AAAA-MM-DD"
+    time        = seleciona uma hora HH/MM
+    color       = seleciona uma cor por RGB 
 
     ------------
 
-    textarea
-    select
-    details
-    option
-    optgroup
+    textarea    = caixa para textos longos / pode ja ter algo escrito, pode ser alterado ou nao, pode ir em branco, quantidade max de letras, aumentar tamanho do container...
+    select      = caixa de opções com scroll
+    details     =
+    option      =
+    optgroup    = separa as opções por grupos para encontrar mais facil
+    datalist    = filtra as opções conforme for digitando
 
     formas de visualização de dados:
 
-    progress
-    meter
-    output
+    progress    = representa o progresso da realização de uma tarefa, exemplo: upload de um arquivo
+    meter       = representa uma regua, uma medida, atraves de barra
+    output      = é um elemento no qual um site ou aplicativo pode injetar os resultados de um cálculo ou o resultado de uma ação do usuário
 
     alguns atributos:
 
-    autofocus
-    checked
-    required
-    maxlenght
-    multiple
-    placeholder
-    max
-    mim ou min? no site tava mim
-    cols
-    rows
-    size
-    step
+    autofocus   = é um atributo booleano, ou seja, pode ou não ser definido em um elemento
+    checked     = usado para validar textarea (assinar contratos)
+    required    = quando obriga a ter algo no input 
+    maxlenght   = maximo de letras
+    multiple    = atributo booleano, pode selecionar varios
+    placeholder = disponibiliza ao usuário uma dica que descreve o valor esperado
+    max         = máximo
+    min         = mínimo
+    cols        = atributo que permite especificar o tamanho do textoarea
+    rows        = atributo que permite especificar o tamanho do textoarea
+    size        = tamanho
+    step        =  é usado para definir os incrementos que serão aceitos em uma entrada
 -->
