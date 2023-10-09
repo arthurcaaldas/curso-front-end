@@ -21,6 +21,10 @@ body {
 }
 
 h1 {
+    background-color: white;
+    box-shadow: 1px 1px 4px #000;
+    border-radius: .6rem;
+    padding: 0.2rem 1rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -55,11 +59,30 @@ input {
     margin-bottom: 20px;
     border-radius: 5px;
     padding: 5px;
+    border: 1px solid #000;
 }
 
 
 .login {
     margin-top: 5px;
     box-shadow: 1px 1px 4px #000;
+    width: 5rem;
+    display: block;
     text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn1 {
+    background: rgb(206, 0, 0);
+    color: white;
+}
+
+.btn2 {
+    background: rgb(2, 2, 75);
+    color: white;
 }
