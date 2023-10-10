@@ -4,9 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./CSS/formLogin.css">
   <link rel="stylesheet" href="./CSS/formLogin2.css">
 </head>
-<body>
-  
+
+<body class="display-flex justify-content-center align-items-center">
+  <fieldset class="container-login box-shadow">
+    <form action="">
+      <h1 class="color-blue">Login</h1>
+
+      <label for="user">usuário</label>
+      <input type="text" name="user" id="user" required>
+
+      <label for="senha">senha</label>
+      <input type="password" name="senha" id="senha" required>
+      
+      <div class="display-flex justify-content-space-between margin-top-1rem">
+        <div>
+          <button type="submit" class="btn primary">login</button>
+          <a href="#" class="btn secondary"> Cadastre-se</a>
+        </div>
+        <div class="padding-p">
+          <a href="./formLogin.html">Esqueci minha senha</a>
+        </div>
+      </div>
+
+    </form>
+  </fieldset>
 </body>
 </html>

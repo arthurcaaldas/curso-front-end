@@ -5,9 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./CSS/formLogin.css">
+  <link rel="stylesheet" href="./CSS/formLogin2.css">
 </head>
-
-<body>
-  
+<body class="display-flex justify-content-center align-items-center">
+  <fieldset class="container-cadastre box-shadow">
+    <form action="">
+      <h1 class="color-font">Cadastre-se</h1>
+      
+      <label for="user">usuário</label>
+      <input type="text" name="user" id="user" minlength="6">
+      
+      <label for="email">email</label>
+      <input type="email" name="email" id="email">
+      
+      <label for="senha">senha</label>
+      <input type="password" name="senha" id="senha">
+      
+      <div class="display-flex justify-content-space-between margin-top-1rem">
+        <button type="submit" class="btn primary">cadastre-se</button>
+        <p class="padding-p">Já possui cadastro? <a href="./formLogin2.html">Faça login</a></p>
+      </div>
+      
+    </form>
+  </fieldset>
 </body>
 </html>

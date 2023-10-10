@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap');
+
 *,
 *:after,
 *:before {
@@ -6,4 +8,54 @@
     border: 0;
     vertical-align: baseline;
     box-sizing: border-box;
+}
+
+body {
+    background: #3a68b7;
+    font-family: 'roboto';
+    height: 100vh;
+}
+
+.container-cadastre {
+    background: #fff;
+    height: 20rem;
+    width: 30rem;
+}
+
+.container-login {
+    background: #fff;
+    height: 16.5rem;
+    width: 30rem;
+}
+
+form {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color:#3a68b7;
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+input {
+    padding: 8px;
+    border-bottom: 2px solid #3a68b7;
+    outline: 0;
+}
+
+ 
+input:invalid:focus {
+    border-color: rgb(134, 0, 0);
+}
+
+input:valid:focus {
+    border-color: rgb(117, 206, 0);
+}
+
+input:focus {
+    border-color: #3a68b7;
 }
