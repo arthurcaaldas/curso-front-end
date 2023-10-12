@@ -1,0 +1,55 @@
+.container2 {
+ background-color: rgba(0, 0, 0, .3);
+ padding: 3rem 2rem;
+ width: 100%;
+}
+
+.tam-h1 {
+ font-size: 1.7rem;
+}
+
+.tam-bem-vindo {
+ font-size: 4rem;
+}
+
+.color-orangered {
+ color: orangered;
+}
+
+.btn {
+ padding: 10px;
+ color: white;
+ background-color: rgb(31, 25, 25);
+ border: 1px solid white;
+ border-radius: 3px;
+ display: inline;
+}
+
+.disp-flex {
+ display: flex;
+}
+
+.just-cont-btw {
+ justify-content: space-between;
+}
+
+.just-cont-center {
+ justify-content: center;
+}
+
+.just-cont-end {
+ justify-content: end;
+}
+
+.flex-direc-column {
+ flex-direction: column;
+}
+
+.align-items-center {
+ align-items: center;
+}
+
+.align-items-end {
+ align-items: end;
+}
+
