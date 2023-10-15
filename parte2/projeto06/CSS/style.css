@@ -13,7 +13,7 @@ body {
  background-image: url(../IMG/bg-unsplash-2x.png);
  background-repeat: no-repeat;
  background-size: cover;
- height: 100vh;
+ min-height: 100vh;
  width:100%;
 }
 
@@ -55,18 +55,22 @@ li {
  list-style: none;
  width: 13rem;
  border-bottom: 1px solid rgba(228, 203, 203, 0.13);
+ padding: 4px;
 }
 
 a {
  color: white;
  text-decoration: none;
  display: block;
- padding: 10px;
+ padding: 10px 0;
+ transition: padding-right .2s, background-color .4s;
 }
 
 a:hover {
- background-color: rgb(204, 187, 187);
  color: black;
+  rgb(204, 187, 187);
+  background-color:  rgb(204, 187, 187);
+  padding-right: 8px;
 }
 
 .margin-bot-2rem {
